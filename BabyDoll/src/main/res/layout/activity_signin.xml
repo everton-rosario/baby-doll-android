@@ -15,6 +15,7 @@
     <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:layout_gravity="bottom"
             android:orientation="vertical">
 
         <!-- first of all -->
@@ -22,6 +23,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
+
                 android:id="@+id/signinContainer"
                 android:visibility="visible"
                 android:background="@drawable/signin_activity_container_bg">
@@ -29,10 +31,11 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textColor="@color/white"
                 android:text="@string/signin_title_signin"
                 android:textAppearance="?android:textAppearanceLarge"
                 android:gravity="center"
-                android:paddingTop="2dp2" />
+                android:paddingTop="2dp" />
 
             <LinearLayout
                 android:layout_height="0dp"
@@ -68,6 +71,7 @@
                         <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
+                                android:textColor="@color/white"
                                 android:paddingLeft="8dp"
                                 android:paddingRight="8dp"
                                 android:paddingBottom="12dp"
@@ -104,6 +108,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
+                            android:textColor="@color/white"
                             android:paddingLeft="8dp"
                             android:paddingRight="8dp"
                             android:paddingBottom="12dp"
@@ -133,6 +138,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
+                            android:textColor="@color/white"
                             android:paddingLeft="8dp"
                             android:paddingRight="8dp"
                             android:paddingBottom="12dp"
@@ -173,7 +179,7 @@
                     android:paddingBottom="8dp"
                     android:clickable="true"
                     android:textColor="@color/primary_text"
-                    android:textSize="14pt"
+                    android:textSize="8pt"
                     android:gravity="center"
                     android:text="@string/signin_btn_login"
                     android:id="@+id/trLogin"/>
@@ -196,7 +202,7 @@
                     android:paddingBottom="8dp"
                     android:clickable="true"
                     android:textColor="@color/primary_text"
-                    android:textSize="14pt"
+                    android:textSize="8pt"
                     android:gravity="center"
                     android:text="@string/signin_btn_signup"
                     android:id="@+id/trSignup"/>
@@ -248,7 +254,7 @@
 
                 <EditText
                     android:layout_width="match_parent"
-                    android:layout_height="4dp0"
+                    android:layout_height="4dp"
                     android:layout_marginBottom="2dp"
                     android:layout_marginLeft="12dp"
                     android:layout_marginRight="12dp"
@@ -271,7 +277,7 @@
                     <EditText
                         android:layout_width="0dp"
                         android:layout_weight="1"
-                        android:layout_height="4dp0"
+                        android:layout_height="4dp"
                         android:layout_marginTop="8dp"
                         android:layout_marginBottom="12dp"
                         android:layout_marginLeft="12dp"
@@ -289,7 +295,7 @@
                         android:id="@+id/loginInputPassword"/>
                     <ImageButton
                         android:layout_width="wrap_content"
-                        android:layout_height="4dp0"
+                        android:layout_height="4dp"
                         android:layout_marginTop="8dp"
                         android:paddingTop="8dp"
                         android:paddingBottom="12dp"
@@ -309,7 +315,7 @@
                     android:layout_marginBottom="14dp"
                     android:orientation="horizontal">
 
-                    <br.com.sappos.widget.TypeFaceTextView
+                    <TextView
                         android:layout_width="0dp"
                         android:layout_weight="1"
                         android:layout_height="wrap_content"
@@ -320,11 +326,10 @@
                         android:text="@string/go_back"
                         android:gravity="left"
                         android:textColor="@color/blue_color_text"
-                        app:typeFace="roboto_light"
                         android:clickable="true"
                         android:paddingBottom="4dp" />
 
-                    <br.com.sappos.widget.TypeFaceTextView
+                    <TextView
                         android:layout_width="0dp"
                         android:layout_weight="1"
                         android:layout_height="wrap_content"
@@ -335,7 +340,7 @@
                         android:text="@string/signin_label_forgotpassword"
                         android:gravity="right"
                         android:textColor="@color/blue_color_text"
-                        app:typeFace="roboto_light"
+
                         android:clickable="true"
                         android:paddingBottom="4dp" />
                 </LinearLayout>
@@ -359,7 +364,7 @@
                     <EditText
                         android:layout_width="0dp"
                         android:layout_weight="1"
-                        android:layout_height="4dp0"
+                        android:layout_height="4dp"
                         android:layout_marginTop="8dp"
                         android:layout_marginBottom="12dp"
                         android:layout_marginLeft="12dp"
@@ -371,12 +376,12 @@
                         android:background="@drawable/white_edit_box"
                         android:textColor="@color/primary_text"
                         android:textColorHint="@color/secondary_text"
-                        android:hint="@string/hint_twitter_or_forgotpassword"
+                        android:hint="@string/signin_hint_twitter_or_forgotpassword"
                         android:inputType="textEmailAddress"
                         android:id="@+id/editEmail"/>
                     <ImageButton
                         android:layout_width="wrap_content"
-                        android:layout_height="4dp0"
+                        android:layout_height="4dp"
                         android:layout_marginTop="8dp"
                         android:paddingTop="8dp"
                         android:paddingBottom="12dp"
@@ -390,7 +395,7 @@
                         android:clickable="true" />
                 </LinearLayout>
 
-                <br.com.sappos.widget.TypeFaceTextView
+                <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="12dp"
@@ -399,7 +404,7 @@
                     android:textSize="14pt"
                     android:text="@string/go_back"
                     android:textColor="@color/blue_color_text"
-                    app:typeFace="roboto_light"
+
                     android:visibility="visible"
                     android:paddingBottom="12dp" />
         </LinearLayout>
@@ -419,18 +424,18 @@
                 android:orientation="vertical"
                 android:layout_centerInParent="true">
 
-                <br.com.sappos.widget.TypeFaceTextView
+                <TextView
                     android:id="@+id/signupTitle"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="8dp"
-                    android:textSize="@dimen/textsize22"
+                    android:textSize="22pt"
                     android:text="@string/signin_title_signup"
                     android:textColor="@color/primary_text"
-                    app:typeFace="roboto_medium"
+
                     android:gravity="center"/>
 
-                <br.com.sappos.widget.TypeFaceTextView
+                <TextView
                     android:id="@+id/signupSubtitle"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -438,12 +443,12 @@
                     android:textSize="16pt"
                     android:text="@string/signin_title_fillform"
                     android:textColor="@color/secondary_text"
-                    app:typeFace="roboto_light"
+
                     android:gravity="center" />
 
                 <EditText
                     android:layout_width="match_parent"
-                    android:layout_height="4dp0"
+                    android:layout_height="4dp"
                     android:layout_marginTop="12dp"
                     android:layout_marginBottom="4dp"
                     android:layout_marginLeft="12dp"
@@ -461,7 +466,7 @@
 
                 <EditText
                     android:layout_width="match_parent"
-                    android:layout_height="4dp0"
+                    android:layout_height="4dp"
                     android:layout_marginTop="4dp"
                     android:layout_marginBottom="4dp"
                     android:layout_marginLeft="12dp"
@@ -479,7 +484,7 @@
 
                 <EditText
                     android:layout_width="match_parent"
-                    android:layout_height="4dp0"
+                    android:layout_height="4dp"
                     android:layout_marginTop="4dp"
                     android:layout_marginBottom="8dp"
                     android:layout_marginLeft="12dp"
@@ -503,21 +508,21 @@
                     android:layout_marginLeft="12dp"
                     android:layout_marginRight="12dp">
 
-                    <br.com.sappos.widget.TypeFaceTextView
+                    <TextView
                         android:layout_weight="1"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
-                        android:textSize="@dimen/textsize12"
+                        android:textSize="12pt"
                         android:text="@string/signup_terms_description"
                         android:textColor="@color/secondary_text"
-                        app:typeFace="roboto_light"
+
                         android:gravity="left"
                         android:clickable="true"
                         android:id="@+id/labelTerms" />
 
                     <ImageButton
                         android:layout_width="wrap_content"
-                        android:layout_height="4dp0"
+                        android:layout_height="4dp"
                         android:paddingTop="8dp"
                         android:paddingBottom="12dp"
                         android:paddingLeft="16dp"
@@ -530,7 +535,7 @@
                 </LinearLayout>
             </LinearLayout>
 
-            <br.com.sappos.widget.TypeFaceTextView
+            <TextView
                 android:layout_alignParentBottom="true"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -540,7 +545,7 @@
                 android:text="@string/signin_btn_cancel"
                 android:gravity="left"
                 android:textColor="@color/blue_color_text"
-                app:typeFace="roboto_light"
+
                 android:clickable="true"/>
         </RelativeLayout>
 
@@ -562,34 +567,34 @@
                 android:layout_marginTop="18dp"
                 android:orientation="horizontal">
 
-                <br.com.sappos.widget.TypeFaceTextView
+                <TextView
                     android:id="@+id/btnReadTerms"
                     android:layout_width="0dp"
                     android:layout_weight="1"
-                    android:layout_height="@dimen/pad60"
+                    android:layout_height="60dp"
                     android:textSize="16pt"
                     android:text="@string/signin_btn_terms"
-                    android:layout_marginRight="@dimen/pad6"
+                    android:layout_marginRight="6dp"
                     android:textColor="@color/primary_text"
-                    app:typeFace="roboto_medium"
+
                     android:clickable="true"
                     android:gravity="center|center_vertical"/>
 
-                <br.com.sappos.widget.TypeFaceTextView
+                <TextView
                     android:id="@+id/btnReadPolicies"
                     android:layout_weight="1"
                     android:layout_width="0dp"
-                    android:layout_height="@dimen/pad60"
-                    android:layout_marginLeft="@dimen/pad6"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="6dp"
                     android:textSize="16pt"
                     android:text="@string/signin_btn_policies"
                     android:textColor="@color/blue_color_text"
-                    app:typeFace="roboto_medium"
+
                     android:clickable="true"
                     android:gravity="center"/>
             </LinearLayout>
 
-            <br.com.sappos.widget.TypeFaceTextView
+            <TextView
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="1"
@@ -605,16 +610,16 @@
                 android:textColor="@color/primary_text"
                 android:id="@+id/textTermsOfUserOrPolicies"/>
 
-            <br.com.sappos.widget.TypeFaceTextView
+            <TextView
                 android:id="@+id/btnTermsBack"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="4dp0"
+                android:layout_marginBottom="4dp"
                 android:layout_marginTop="14dp"
                 android:textSize="16pt"
                 android:text="@string/signin_btn_back"
                 android:textColor="@color/blue_color_text"
-                app:typeFace="roboto_light"
+
                 android:gravity="center"/>
         </LinearLayout>
     </LinearLayout>

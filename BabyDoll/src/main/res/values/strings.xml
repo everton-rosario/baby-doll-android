@@ -12,4 +12,35 @@
     <string name="title_activity_splash_screen">SplashScreenActivity</string>
     <string name="hello_world">Hello world!</string>
 
+
+    <!-- LAYOUT RESOURCES -->
+    <string name="signin_title_signin">ENTRE NA SUA CONTA:</string>
+    <string name="signin_label_facebook">FACEBOOK</string>
+    <string name="signin_label_twitter">TWITTER</string>
+    <string name="signin_label_googleplus">GOOGLE+</string>
+    <string name="signin_label_skiplogin">PULAR LOGIN »</string>
+    <string name="signin_btn_signup">CADASTRE-SE COM SEU E-MAIL</string>
+    <string name="signin_btn_login">ENTRAR PELA CONTA SAPPOS</string>
+    <string name="signin_hint_typeemail">DIGITE SEU EMAIL</string>
+    <string name="signin_hint_typepassword">DIGITE SUA SENHA</string>
+    <string name="signin_label_forgotpassword">ESQUECI MINHA SENHA</string>
+    <string name="signin_title_signup">CADASTRE-SE</string>
+    <string name="signin_title_fillform">PREENCHA OS CAMPOS ABAIXO:</string>
+    <string name="signin_hint_name">NOME</string>
+    <string name="signin_hint_email">E-MAIL</string>
+    <string name="signin_hint_password">SENHA</string>
+    <string name="signin_btn_cancel">« CANCELAR</string>
+    <string name="signin_btn_back">« VOLTAR</string>
+    <string name="signin_btn_terms">TERMOS\nDE USO</string>
+    <string name="signin_btn_policies">POLÍTICA\nDE PRIVACIDADE</string>
+    <string name="signin_hint_twitter_or_forgotpassword">DIGITE SEU E-MAIL PARA CONTINUAR</string>
+    <string name="signup_terms_description">AO CLICAR EM ENVIAR, VOCÊ ESTARÁ DE ACORDO COM OS TERMOS DE USO E A\nPOLÍTICA DE PRIVACIDADE DA SAPPOS.</string>
+
+    <string name="go_back">« VOLTAR</string>
+
+    <string name="latest_version_update">Há uma nova versão disponível no Google Play, que tal atualizar agora?</string>
+    <string name="latest_version_btn_positive">Atualizar</string>
+    <string name="latest_version_btn_negative">Depois</string>
+    <string name="latest_version_sorry">É necessário que você atualize o aplicativo pela versão mais atual disponível no Google Play Store.</string>
+
 </resources>

@@ -1,4 +1,75 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <color name="primary_text">#FFFFFF</color>
+    <color name="secondary_text">#EEEEEE</color>
+    <color name="tertiary_text">#CCCCCC</color>
+
+    <color name="default_background">#CCCCCC</color>
+    <color name="default_foreground">#FFFFFF</color>
+
+    <!-- Cor usada no texto dos botoes de cadastro e login -->
+    <color name="blue_color_text">#779dac</color>
+    <color name="blue_color_background_dark">#021a23</color>
+
+    <color name="feed_primary_text">#002631</color>
+    <color name="feed_secondary_text">#666666</color>
+    <color name="feed_tertiary_text">#999999</color>
+    <color name="feed_button_selected">#7F9CA5</color>
+    <color name="feed_item_selected">#A07F9CA5</color>
+    <color name="feed_button_normal">#00000000</color>
+    <color name="search_text_color">#2C5B68</color>
+    <color name="new_activities_loaded_button_background">#7F9CA5</color>
+    <color name="friend_tagged">#00CC33</color>
+
+    <color name="programme_primary_text">#333333</color>
+    <color name="programme_secondary_text">#777777</color>
+
+    <color name="red_progress">#B70000</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="gray_stroke">#CCCCCC</color>
+    <color name="gray_strokes_programme">#666666</color>
+    <color name="divider">#999999</color>
+    <color name="divider_dark">#AAAAAA</color>
+    <color name="background">#232323</color>
+    <color name="tab_text">#002631</color>
+
     <color name="transparent_dark_background">#BA000C15</color>
+    <color name="gray_transparent">#CC222222</color>
+    <color name="transparent">#222222FF</color>
+    <color name="white_transparent">#DDFFFFFF</color>
+
+    <color name="green">#B46EBD46</color>
+    <color name="green_transparent">#666EBD46</color>
+    <color name="button_disabled">#4D000000</color>
+
+    <color name="orange">#CCF89B1C</color>
+    <color name="yellow">#CCFFD200</color>
+
+    <color name="gray">#80EEEEEE</color>
+    <color name="buzz_background">#333333</color>
+
+    <color name="rating_text">#333333</color>
+    <color name="comments_text">#555555</color>
+    <color name="more_checkins_badge">#D4D4D3</color>
+
+    <color name="facebook_button">#CD38568C</color>
+    <color name="facebook_button_pressed">#4D38568C</color>
+
+    <color name="twitter_button_color">#CD4A97C5</color>
+    <color name="twitter_button_pressed_color">#4D4A97C5</color>
+
+    <color name="menu_selector">#CD444444</color>
+
+    <color name="notification_unseen">#e5ebed</color>
+
+    <color name="dark_slate_gray">#2F4F4F</color>
+    <color name="gray_2">#AFAFAF</color>
+    <color name="gray_1">#C0C0C0</color>
+
+    <color name="chat_color_name">#003A4B</color>
+    <color name="chat_color_text">@color/feed_secondary_text</color>
+    <color name="chat_color_time">@color/feed_tertiary_text</color>
+    <color name="googleplus_button">#D85131</color>
+    <color name="googleplus_button_pressed">#B83E21</color>
 </resources>
